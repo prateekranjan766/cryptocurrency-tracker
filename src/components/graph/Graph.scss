@@ -1,0 +1,19 @@
+.graph {
+  width: 70%;
+  margin: 5rem auto;
+}
+.time {
+  margin-top: -2rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b2ebf2;
+  input {
+    margin-left: 1rem;
+    margin-right: 0.3rem;
+    font-size: 2rem;
+  }
+}

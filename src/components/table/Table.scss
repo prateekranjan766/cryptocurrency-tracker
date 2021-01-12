@@ -1,0 +1,57 @@
+table {
+  font-size: 2rem;
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 5rem;
+  text-align: left;
+  width: 95%;
+  th {
+    padding: 1rem 1.2rem;
+    background-color: #96bb7c;
+    color: #fff;
+  }
+  td {
+    padding: 1rem 1.2rem;
+  }
+
+  img {
+    height: 4rem;
+    width: auto;
+    display: flex;
+  }
+  i {
+    padding: 0.3rem;
+  }
+}
+.rows {
+  border-bottom: 1px solid #f4f4f4;
+  &:hover {
+    background-color: #666666;
+  }
+  cursor: pointer;
+}
+.ta-r {
+  text-align: right;
+}
+.name {
+  color: #fff3b2;
+}
+.market_cap_rank {
+  color: #01c5c4;
+}
+.current_price {
+  color: #fcf876;
+}
+.increase {
+  color: #96bb7c;
+}
+.decrease {
+  color: #f05454;
+}
+.symbol {
+  text-transform: uppercase;
+  color: #ffa62b;
+}
+.last_updated {
+  color: #61b15a;
+}
